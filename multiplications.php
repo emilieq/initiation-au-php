@@ -71,43 +71,5 @@ echo $res .'<br />';
 
 
 
-<!-- <?php 
-
-
- // // *****************************MENU DEROULANT *************************************************************
- //  // Variable qui ajoutera l'attribut selected de la liste déroulante
- //  $selected = '';
- 
- //  // Parcours du tableau
- //  echo '<select name="txtTime">',"\n";
- //  for($i=1; $i<=10; $i++)
- //  {
- //    $selected = '';
-
-
- //    // Affichage de la ligne
- //    echo "\t",'<option value="', $i ,'"', $selected ,'>', $i ,'</option>',"\n";
- //    // Remise à zéro de $selected
- //    $selected='';
- //  }
- //  echo '</select>',"\n";
-
-
- 
- //  		if  (($_GET["signe"])=="plus"){
- //  		 	for ($i=1; $i<=10;$i++)
- //  		 		echo $_GET["nombre"]. "+" .$i. "=" .$_GET["nombre"] + $i ."<br>";
- //  		}
- //  		if  (($_GET["signe"])=="fois"){
- //  		 	for ($i=1; $i<=10;$i++)
- //  		 		echo $_GET["nombre"]. "*" .$i. "=" .$i * $_GET["nombre"] ."<br>";
- //  		}
- ?>  -->
-
-
-
-
-
-
 
 
