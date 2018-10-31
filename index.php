@@ -27,13 +27,16 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">exercise no 1 <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="multiplications.php">multiplications <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">exercise no 2</a>
+                  <a class="nav-link" href="multiplications_check.php">multiplications avec check</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">exercise no 3</a>
+                  <a class="nav-link" href="multiplications_rev.php">multiplications à reviser</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="multiplications_super_rev.php">super révision</a>
                 </li>
                 
               </ul>
