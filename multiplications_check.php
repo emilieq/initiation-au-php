@@ -3,6 +3,12 @@
   <head><title>Afficher le tableau multiplication</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   </head>
+  <header>
+    <?php
+    $pagetitle='Tutoriel Link';
+    include ("menu.php");
+    ?> 
+  </header>
 
 
 <body>

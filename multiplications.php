@@ -4,9 +4,15 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
+<header>
+  <?php
+$pagetitle='Tutoriel Link';
+include ("menu.php");
+?> 
+</header>
 
 <body>
-
+ 
 	<h1>Table de Multiplication</h1>
 
 
@@ -42,11 +48,10 @@ echo $res .'<br />';
   </form>
   </body>
 
+
+
+  
 <?php
-
-
-// *****************************tables de multiplication  *************************************************************
-
 
   if ($_POST['table']) {
     echo "<h2>";

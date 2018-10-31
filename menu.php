@@ -12,20 +12,45 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet"> 
 
     <title>table de multiplication</title>
   </head>
-  <header>
-    <?php
-    $pagetitle='Tutoriel Link';
-    include ("menu.php");
-    ?> 
-  </header>
   <body>
        
    
-  
+    <nav  id="menu"class="navbar navbar-expand-md navbar-dark fixed-top">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="multiplications.php">multiplications <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="multiplications_check.php">multiplications avec check</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="multiplications_rev.php">multiplications à reviser</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="multiplications_super_rev.php">super révision</a>
+                </li>
+                
+              </ul>
+              
+            </div>
+          </nav>
+      
+          <main >
+      
+                         
+            
+      
+      
+          </main>
       
           <footer >
             
