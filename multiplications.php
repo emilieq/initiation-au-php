@@ -13,7 +13,7 @@
   <?php
 
 $table = 3 ;
-$res = 'table de multiplication de '.$table.'<br />'.'<br />';
+$res = 'table de multiplication du '.$table.'<br />'.'<br />';
 $i = 0;
 
 while ($i < 11) {
@@ -26,7 +26,7 @@ echo $res .'<br />';
 
   <form method = "post" action = "multiplications.php">
   Choisir une table de multiplication entre 1 et 10:
-  <select type="text" name="txtTime"/>
+  <select type="text" name="table"/>
   	<option> 1
 	<option> 2
 	<option> 3
@@ -43,24 +43,20 @@ echo $res .'<br />';
   </body>
 
 <?php
+
+
 // *****************************tables de multiplication  *************************************************************
 
 
+  if ($_POST['table']) {
+    echo "<h2>";
+    $t=$_POST['table'];
 
-  if (($_POST['txtTime']))
-
-  {
-  echo "<h2>";
-  $t=$_POST['txtTime'];
-
-  for ($q = 1; $q < 11; $q++)
-
-  {
+    for ($q = 1; $q < 11; $q++) {
   echo $q." x " .$t. " = ".$q*$t. "<br>";
   }
   }
   
-
 
  ?>
 

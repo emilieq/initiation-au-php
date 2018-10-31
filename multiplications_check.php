@@ -11,7 +11,7 @@
 	
 
   <form method = "post" action = "multiplications_check.php">
-  Entrer le nombre: <br><br>
+  Cocher les tables que vous voulez consulter :  <br><br>
   	<label for=table1 name="table1"> table du 1</label>
    <input type="checkbox" name="table[]" value="1" /><br>
    <label for=table2 name="table2"> table du 2</label>
@@ -44,9 +44,9 @@ foreach($_POST['table'] as $valeur){
 for ($j=1; $j <= 10; $j++) {
 if ($j == 10){
 
-echo $valeur. '*' .$j. '=' .$j * $valeur.'<br><br>';
+echo $valeur. 'x' .$j. '=' .$j * $valeur.'<br><br>';
 } else {
-echo $valeur. '*' .$j. '=' .$j * $valeur.'<br>';
+echo $valeur. 'x' .$j. '=' .$j * $valeur.'<br>';
 }
 
 }

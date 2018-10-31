@@ -7,6 +7,7 @@
 <body>
 
 	<h1>Table de Multiplication</h1>
+  <p> Choississez une table et répondez à l'opération.</p> </br>
 
   <ul id = "Menu de table">
     <li>
@@ -60,13 +61,13 @@
 if(isset($_POST['resultat'])) {
 	if ($_POST['resultat'] == $_POST['vrai_resultat']){
 	  echo "bonne réponse, vous avez gagné le droit de recommencer !!!";
-	  return $i;
 	} 
 	else {
-	  echo "mauvaise réponse";
+	  echo "Vous n'avez pas la bonne réponse ... le bon résultat est  ".$_POST['vrai_resultat'];
 	}
 }
 
+?>
 
-  ?>
-
+</body>
+</html>
